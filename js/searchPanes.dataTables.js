@@ -26,6 +26,6 @@
     }
 }(function ($, window, document) {
     'use strict';
-    let DataTable = $.fn.dataTable;
+    var DataTable = $.fn.dataTable;
     return DataTable.searchPanes;
 }));
