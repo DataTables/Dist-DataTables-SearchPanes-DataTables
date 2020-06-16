@@ -1,7 +1,7 @@
 (function (factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD
-        define(['jquery', 'datatables.net-dt', 'datatables.net-searchPanes'], function ($) {
+        define(['jquery', 'datatables.net-dt', 'datatables.net-searchpanes'], function ($) {
             return factory($, window, document);
         });
     }
