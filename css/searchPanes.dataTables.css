@@ -325,6 +325,7 @@ div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_
   display: inline-block;
   width: calc(100% - 42px);
   vertical-align: middle;
+  white-space: nowrap;
 }
 div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_scrollBody div.dtsp-nameCont span.dtsp-pill {
   display: inline-block;
