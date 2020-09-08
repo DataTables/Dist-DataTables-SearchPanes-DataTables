@@ -318,14 +318,19 @@ div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_
 }
 div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_scrollBody div.dtsp-nameCont {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
 }
 div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_scrollBody div.dtsp-nameCont span.dtsp-name {
   text-overflow: ellipsis;
   overflow: hidden;
   display: inline-block;
-  width: calc(100% - 42px);
   vertical-align: middle;
   white-space: nowrap;
+  flex-grow: 1;
 }
 div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_scrollBody div.dtsp-nameCont span.dtsp-pill {
   display: inline-block;
