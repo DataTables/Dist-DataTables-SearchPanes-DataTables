@@ -135,7 +135,7 @@ div.dtsp-panesContainer {
 }
 
 div.dtsp-panesContainer {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -391,8 +391,8 @@ div.dtsp-narrow div.dtsp-subRows {
 
 @media screen and (max-width: 767px) {
   div.dtsp-columns-4,
-  div.dtsp-columns-5,
-  div.dtsp-columns-6 {
+div.dtsp-columns-5,
+div.dtsp-columns-6 {
     max-width: 31% !important;
     min-width: 31% !important;
   }
