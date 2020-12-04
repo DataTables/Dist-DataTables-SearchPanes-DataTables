@@ -359,6 +359,9 @@ div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane tr > td {
 div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane td.dtsp-countColumn {
   text-align: right;
 }
+div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_layout_cell {
+  padding: 0;
+}
 div.dtsp-panesContainer div.dtsp-title {
   float: left;
   margin: 20px;
