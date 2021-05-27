@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>datatables.net-searchpanes-dt</id>
-    <version>1.1.1</version>
-    <description>SearchPanes for DataTables</description>
-    <authors>SpryMedia Ltd</authors>
-    <projectUrl>http://datatables.net</projectUrl>
-    <license type="expression">MIT</license>
-    <tags>searchpanes DataTables jQuery table DataTables</tags>
-    <repository type="git" url="https://github.com/DataTables/Dist-DataTables-SearchPanes-DataTables.git"/>
-    <dependencies>
-      <dependency id="jquery" version="1.7.0"/>
-      <dependency id="datatables.net" version="1.10.15"/>
-      <dependency id="datatables.net-searchpanes" version="1.1.1"/>
-      <dependency id="datatables.net-dt" version="1.10.15"/>
-    </dependencies>
-    <contentFiles>
-      <files include="**/*" buildAction="Content"/>
-    </contentFiles>
-  </metadata>
-  <files>
-    <file src="js/searchpanes.datatables.js" target="content\Scripts"/>
-    <file src="js/searchpanes.datatables.min.js" target="content\Scripts"/>
-    <file src="css/searchpanes.datatables.css" target="content\Content"/>
-    <file src="css/searchpanes.datatables.min.css" target="content\Content"/>
-    <file src="js/searchpanes.datatables.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="js/searchpanes.datatables.min.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="css/searchpanes.datatables.css" target="contentFiles\any\any\wwwroot\css"/>
-    <file src="css/searchpanes.datatables.min.css" target="contentFiles\any\any\wwwroot\css"/>
-  </files>
+    <metadata>
+        <version>1.2.2</version>
+        <id>datatables.net-searchpanes-dt</id>
+        <description>This is SearchPanes for DataTables with styling for [DataTables](https://datatables.net/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-SearchPanes-DataTables.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>SearchPanes  search  filtering   Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-searchpanes" version=">=1.2.2"/>
+            <dependency id="datatables.net-dt" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/searchPanes.dataTables.js" target="content\Scripts"/>
+        <file src="js/searchPanes.dataTables.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/searchPanes.dataTables.min.js" target="content\Scripts"/>
+        <file src="js/searchPanes.dataTables.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/searchPanes.dataTables.css" target="content\Content"/>
+        <file src="css/searchPanes.dataTables.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/searchPanes.dataTables.min.css" target="content\Content"/>
+        <file src="css/searchPanes.dataTables.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/searchPanes.dataTables.d.ts" target="content\Scripts"/>
+        <file src="types/searchPanes.dataTables.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
 </package>
+
