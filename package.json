@@ -2,12 +2,14 @@
     "name": "datatables.net-searchpanes-dt",
     "description": "SearchPanes for DataTables with styling for [DataTables](https://datatables.net/)",
     "main": "js/searchPanes.dataTables.js",
+    "module": "js/searchPanes.dataTables.mjs",
     "style": "css/searchPanes.dataTables.css",
     "types": "./types/searchPanes.dataTables.d.ts",
     "version": "2.0.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
