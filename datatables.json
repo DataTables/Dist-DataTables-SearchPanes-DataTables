@@ -10,7 +10,8 @@
         "css/searchPanes.dataTables.min.css"
     ],
     "types": [
-        "types/searchPanes.dataTables.d.ts"
+        "types/searchPanes.dataTables.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/SearchPanes",
     "last-tag": "2.0.2"
