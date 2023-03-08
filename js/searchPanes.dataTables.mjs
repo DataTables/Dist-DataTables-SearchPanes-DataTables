@@ -8,5 +8,4 @@ import SearchPanes from 'datatables.net-searchpanes';
 
 
 
-
 export default DataTable;
