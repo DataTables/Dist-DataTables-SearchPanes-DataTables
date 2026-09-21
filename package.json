@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-searchpanes-dt",
     "description": "SearchPanes for DataTables with styling for [DataTables](https://datatables.net/)",
-    "main": "js/searchPanes.dataTables.js",
-    "module": "js/searchPanes.dataTables.mjs",
-    "style": "css/searchPanes.dataTables.css",
+    "main": "./js/searchPanes.dataTables.js",
+    "module": "./js/searchPanes.dataTables.mjs",
+    "style": "./css/searchPanes.dataTables.css",
     "types": "./types/searchPanes.dataTables.d.ts",
     "version": "2.3.5",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "SearchPanes",
@@ -47,5 +46,24 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-SearchPanes-DataTables.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/searchPanes.dataTables.d.ts",
+            "import": "./js/searchPanes.dataTables.mjs",
+            "default": "./js/searchPanes.dataTables.mjs",
+            "require": "./js/searchPanes.dataTables.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/searchPanes.dataTables.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
