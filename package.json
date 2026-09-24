@@ -50,9 +50,10 @@
     "exports": {
         ".": {
             "types": "./types/searchPanes.dataTables.d.ts",
+            "style": "./css/searchPanes.dataTables.css",
             "import": "./js/searchPanes.dataTables.mjs",
-            "default": "./js/searchPanes.dataTables.mjs",
-            "require": "./js/searchPanes.dataTables.js"
+            "require": "./js/searchPanes.dataTables.js",
+            "default": "./js/searchPanes.dataTables.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
